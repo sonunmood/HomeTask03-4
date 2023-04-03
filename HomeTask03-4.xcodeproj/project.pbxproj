@@ -13,6 +13,11 @@
 		3D66CE6929C4DAAA004AE4B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D66CE6729C4DAAA004AE4B3 /* Main.storyboard */; };
 		3D66CE6B29C4DAAC004AE4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D66CE6A29C4DAAC004AE4B3 /* Assets.xcassets */; };
 		3D66CE6E29C4DAAC004AE4B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D66CE6C29C4DAAC004AE4B3 /* LaunchScreen.storyboard */; };
+		3D66CE7629C5EF96004AE4B3 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66CE7529C5EF96004AE4B3 /* CollectionTableViewCell.swift */; };
+		3D66CE9E29C704BE004AE4B3 /* FurnitureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66CE9D29C704BE004AE4B3 /* FurnitureModel.swift */; };
+		3D66CEC429C9D6C1004AE4B3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66CEC329C9D6C1004AE4B3 /* DetailViewController.swift */; };
+		3D66CEC729CB27C3004AE4B3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3D66CEC629CB27C3004AE4B3 /* SnapKit */; };
+		3D66CF4C29D47375004AE4B3 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D66CF4B29D47375004AE4B3 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,9 @@
 		3D66CE6A29C4DAAC004AE4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D66CE6D29C4DAAC004AE4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D66CE6F29C4DAAC004AE4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D66CE7529C5EF96004AE4B3 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		3D66CE9D29C704BE004AE4B3 /* FurnitureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureModel.swift; sourceTree = "<group>"; };
+		3D66CEC329C9D6C1004AE4B3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D66CEC729CB27C3004AE4B3 /* SnapKit in Frameworks */,
+				3D66CF4C29D47375004AE4B3 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +69,9 @@
 				3D66CE6129C4DAAA004AE4B3 /* AppDelegate.swift */,
 				3D66CE6329C4DAAA004AE4B3 /* SceneDelegate.swift */,
 				3D66CE6529C4DAAA004AE4B3 /* ViewController.swift */,
+				3D66CE7529C5EF96004AE4B3 /* CollectionTableViewCell.swift */,
+				3D66CEC329C9D6C1004AE4B3 /* DetailViewController.swift */,
+				3D66CE9D29C704BE004AE4B3 /* FurnitureModel.swift */,
 				3D66CE6729C4DAAA004AE4B3 /* Main.storyboard */,
 				3D66CE6A29C4DAAC004AE4B3 /* Assets.xcassets */,
 				3D66CE6C29C4DAAC004AE4B3 /* LaunchScreen.storyboard */,
@@ -83,6 +96,10 @@
 			dependencies = (
 			);
 			name = "HomeTask03-4";
+			packageProductDependencies = (
+				3D66CEC629CB27C3004AE4B3 /* SnapKit */,
+				3D66CF4B29D47375004AE4B3 /* IQKeyboardManagerSwift */,
+			);
 			productName = "HomeTask03-4";
 			productReference = 3D66CE5E29C4DAAA004AE4B3 /* HomeTask03-4.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,10 @@
 				Base,
 			);
 			mainGroup = 3D66CE5529C4DAAA004AE4B3;
+			packageReferences = (
+				3D66CEC529CB27C3004AE4B3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3D66CF4A29D47375004AE4B3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 3D66CE5F29C4DAAA004AE4B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +161,9 @@
 			files = (
 				3D66CE6629C4DAAA004AE4B3 /* ViewController.swift in Sources */,
 				3D66CE6229C4DAAA004AE4B3 /* AppDelegate.swift in Sources */,
+				3D66CE9E29C704BE004AE4B3 /* FurnitureModel.swift in Sources */,
+				3D66CEC429C9D6C1004AE4B3 /* DetailViewController.swift in Sources */,
+				3D66CE7629C5EF96004AE4B3 /* CollectionTableViewCell.swift in Sources */,
 				3D66CE6429C4DAAA004AE4B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +380,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D66CEC529CB27C3004AE4B3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3D66CF4A29D47375004AE4B3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D66CEC629CB27C3004AE4B3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D66CEC529CB27C3004AE4B3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		3D66CF4B29D47375004AE4B3 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D66CF4A29D47375004AE4B3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D66CE5629C4DAAA004AE4B3 /* Project object */;
 }
